@@ -39,5 +39,6 @@ public class Motor {
             System.out.println("Kontak Off");
         }
         System.out.println("Kecepatan "+kecepatan+"\n");
+        
     }
 }

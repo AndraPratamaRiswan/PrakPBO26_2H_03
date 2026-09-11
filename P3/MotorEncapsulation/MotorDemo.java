@@ -20,5 +20,6 @@ public class MotorDemo {
 
         motor.matikanMesin();
         motor.printStatus();
+        
     }
 }

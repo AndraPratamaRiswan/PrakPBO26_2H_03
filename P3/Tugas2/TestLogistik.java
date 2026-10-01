@@ -52,5 +52,6 @@ public class TestLogistik {
                     break;
             }
         }while(pilihan !=0);
+        sc.close();
     }
 }

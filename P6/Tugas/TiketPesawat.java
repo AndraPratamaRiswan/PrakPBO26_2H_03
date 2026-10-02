@@ -13,7 +13,8 @@ public class TiketPesawat extends Tiket {
             tiket.namaPenumpang,
             tiket.asal,
             tiket.tujuan,
-            tiket.hargaDasar
+            tiket.getHargaDasar()
+
         );
 
         this.maskapai = maskapai;
@@ -26,7 +27,8 @@ public class TiketPesawat extends Tiket {
             tiket.namaPenumpang,
             tiket.asal,
             tiket.tujuan,
-            tiket.hargaDasar
+            tiket.getHargaDasar()
+
         );
 
         this.maskapai = tiket.maskapai;

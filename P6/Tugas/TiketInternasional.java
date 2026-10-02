@@ -21,7 +21,7 @@ public class TiketInternasional extends TiketPesawat {
         System.out.println("Nomor Paspor    = " + nomorPaspor);
         System.out.println("Asuransi        = " + asuransi);
 
-        int totalBayar = hargaDasar
+        int totalBayar = getHargaDasar()
                 + hitungBiayaBagasi()
                 + asuransi;
 

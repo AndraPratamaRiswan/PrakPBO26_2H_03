@@ -10,14 +10,14 @@ public class TestTiket {
         tiket1.namaPenumpang = "Andi";
         tiket1.asal = "Malang";
         tiket1.tujuan = "Jakarta";
-        tiket1.hargaDasar = 350000;
+        tiket1.setHargaDasar(350000);
 
         TiketKereta tiketKereta = new TiketKereta();
         tiketKereta.kodeTiket = tiket1.kodeTiket;
         tiketKereta.namaPenumpang = tiket1.namaPenumpang;
         tiketKereta.asal = tiket1.asal;
         tiketKereta.tujuan = tiket1.tujuan;
-        tiketKereta.hargaDasar = tiket1.hargaDasar;
+        tiketKereta.setHargaDasar(tiket1.getHargaDasar());
         tiketKereta.nomorGerbong = 3;
         tiketKereta.nomorKursi = "12A";
 
@@ -30,14 +30,14 @@ public class TestTiket {
         tiket2.namaPenumpang = "Sinta";
         tiket2.asal = "Surabaya";
         tiket2.tujuan = "Denpasar";
-        tiket2.hargaDasar = 900000;
+        tiket2.setHargaDasar(900000);
 
         TiketPesawat tiketPesawat = new TiketPesawat();
         tiketPesawat.kodeTiket = tiket2.kodeTiket;
         tiketPesawat.namaPenumpang = tiket2.namaPenumpang;
         tiketPesawat.asal = tiket2.asal;
         tiketPesawat.tujuan = tiket2.tujuan;
-        tiketPesawat.hargaDasar = tiket2.hargaDasar;
+        tiketPesawat.setHargaDasar(tiket2.getHargaDasar());
         tiketPesawat.maskapai = "Garuda Indonesia";
         tiketPesawat.beratBagasi = 25;
 
@@ -53,14 +53,14 @@ public class TestTiket {
         tiket3.namaPenumpang = "Budi";
         tiket3.asal = "Jakarta";
         tiket3.tujuan = "Singapura";
-        tiket3.hargaDasar = 2500000;
+        tiket3.setHargaDasar(2500000);
 
         TiketPesawat tiketPesawat2 = new TiketPesawat();
         tiketPesawat2.kodeTiket = tiket3.kodeTiket;
         tiketPesawat2.namaPenumpang = tiket3.namaPenumpang;
         tiketPesawat2.asal = tiket3.asal;
         tiketPesawat2.tujuan = tiket3.tujuan;
-        tiketPesawat2.hargaDasar = tiket3.hargaDasar;
+        tiketPesawat2.setHargaDasar(tiket3.getHargaDasar());
         tiketPesawat2.maskapai = "Singapore Airlines";
         tiketPesawat2.beratBagasi = 20;
 

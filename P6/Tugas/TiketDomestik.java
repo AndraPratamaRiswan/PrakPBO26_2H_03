@@ -16,7 +16,7 @@ public class TiketDomestik extends TiketPesawat {
 
         System.out.println("Pajak Bandara   = " + pajakBandara);
 
-        int totalBayar = hargaDasar
+        int totalBayar = getHargaDasar()
                 + hitungBiayaBagasi()
                 + pajakBandara;
 

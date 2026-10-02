@@ -13,7 +13,7 @@ public class TiketKereta extends Tiket {
             tiket.namaPenumpang,
             tiket.asal,
             tiket.tujuan,
-            tiket.hargaDasar
+            tiket.getHargaDasar()
         );
 
         this.nomorGerbong = nomorGerbong;
@@ -25,6 +25,6 @@ public class TiketKereta extends Tiket {
 
         System.out.println("Nomor Gerbong   = " + nomorGerbong);
         System.out.println("Nomor Kursi     = " + nomorKursi);
-        System.out.println("Total Bayar     = " + hargaDasar);
+        System.out.println("Total Bayar     = " + getHargaDasar());
     }
 }

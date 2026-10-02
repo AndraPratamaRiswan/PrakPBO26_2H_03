@@ -5,7 +5,7 @@ public class Tiket {
     protected String namaPenumpang;
     protected String asal;
     protected String tujuan;
-    protected int hargaDasar;
+    private int hargaDasar;
 
     public Tiket() {
     }
@@ -24,5 +24,12 @@ public class Tiket {
         System.out.println("Nama Penumpang  = " + namaPenumpang);
         System.out.println("Rute            = " + asal + " - " + tujuan);
         System.out.println("Harga Dasar     = " + hargaDasar);
+    }
+
+    public int getHargaDasar() {
+        return hargaDasar;
+    }
+    public void setHargaDasar(int hargaDasar) {
+        this.hargaDasar = hargaDasar;
     }
 }

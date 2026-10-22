@@ -5,7 +5,6 @@ public class Program {
 
         Kucing kucingKampung = new Kucing();
         Ikan lumbaLumba = new Ikan();
-        Hewan hewan = new Hewan();
 
         Orang ani = new Orang("Ani");
         Orang budi = new Orang("Budi");

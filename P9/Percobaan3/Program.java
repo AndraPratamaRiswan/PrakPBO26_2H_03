@@ -10,7 +10,7 @@ public class Program {
         // pakRektor.beriSertifikatCumlaude(sarjanaCumlaude);
         // pakRektor.beriSertifikatCumlaude(masterCumlaude);
 
-        // pakRektor.beriSertifikatMawapres(sarjanaCumlaude);
+        pakRektor.beriSertifikatMawapres(sarjanaCumlaude);
         pakRektor.beriSertifikatMawapres(masterCumlaude);
     }
 }

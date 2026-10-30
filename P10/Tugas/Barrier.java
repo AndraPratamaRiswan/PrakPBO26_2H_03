@@ -17,7 +17,6 @@ public class Barrier implements Destroyable {
 
     @Override
     public void destroyed() {
-        // Pengurangan proporsional 10%, dibulatkan ke bawah agar hasil contoh = 64.
         strength = (int) (strength * 0.90);
     }
 

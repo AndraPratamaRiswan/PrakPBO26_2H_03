@@ -18,14 +18,12 @@ public class JumpingZombie extends Zombie {
                 health += (int) (health * 0.50);
                 break;
             default:
-                // Level di luar 1-3 tidak memiliki aturan penyembuhan.
                 break;
         }
     }
 
     @Override
     public void destroyed() {
-        // 10% diperlukan agar hasil 4 kali penghancuran menjadi 66 seperti contoh jobsheet.
         health -= (int) (health * 0.10);
     }
 

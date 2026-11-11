@@ -28,6 +28,9 @@ public class Main {
         bank.addAccount(acc1);
         bank.addAccount(acc2);
         bank.addAccount(savings);
+
+        System.out.println("Total Assets: Rp " + bank.totalAssets());
+        
         bank.processMonthEnd();
 
         bank.printHistory("A003");
